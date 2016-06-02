@@ -28,7 +28,7 @@ var publicPath      = ".";
 var vendorPath      = 'vendor/';
 var bowerPath       = vendorPath + 'bower_components/';
 var bowerRelative   = '../../../' + bowerPath;
-var min             = elixir.config.production ? '.min' : '';
+var min             = elixir.config.production ? '' : '';
 
 
 elixir.config.publicPath                        = publicPath;
