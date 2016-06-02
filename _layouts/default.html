@@ -1,0 +1,21 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    {% include page_head.html %}
+
+    <body
+        id="{% if page.controller %}{{ page.controller | escape }}{% else %}{{ site.controller | escape }}{% endif %}"
+        class="{% if page.method %}{{ page.method | escape }}{% else %}{{ site.method | escape }}{% endif %}"
+        data-controller="{% if page.controller %}{{ page.controller | escape }}{% else %}{{ site.controller | escape }}{% endif %}"
+        data-method="{% if page.method %}{{ page.method | escape }}{% else %}{{ site.method | escape }}{% endif %}"
+    >
+        <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        {{ content }}
+
+        {% include page_tail.html %}
+
+    </body>
+</html>
