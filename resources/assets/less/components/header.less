@@ -1,0 +1,46 @@
+#header{
+    .btn-back{
+        text-indent: -9999px;
+        position: relative;
+        top: 0;
+
+        &:active{
+            box-shadow: none;
+        }
+
+        &:focus{
+            outline: none;
+        }
+
+        &::before{
+            content: "";
+            width: 16px;
+            height: 16px;
+            display: block;
+            border-top: 1px solid @gray-light;
+            border-left: 1px solid @gray-light;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: 4px;
+            margin-left: -8px;
+            transform: rotate(45deg);
+            animation: wave 2s infinite;
+            .trans();
+        }
+
+        &:hover{
+            &::before{
+                border-color: lighten(@gray-light, 20%);
+            }
+        }
+    }
+}
+
+
+@keyframes wave {
+  0%   { transform: translate3d(0,0,0) rotate(45deg) }
+  50%  { transform: translate3d(0,-4px,0) rotate(45deg) }
+  100% { transform: translate3d(0,0,0) rotate(45deg) }
+
+}
