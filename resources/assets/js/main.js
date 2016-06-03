@@ -11,6 +11,10 @@
 SITE = {
     common: {
         init: function() {
+            $('.obfuscate').each(function(){
+                var $this = $(this);
+                $this.attr('href',rot13($this.data('value')));
+            });
         }
     },
 
