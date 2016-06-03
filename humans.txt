@@ -1,15 +1,17 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
 
-# TEAM
+     ___  ___  ________  ___       ________
+    |\  \|\  \|\   __  \|\  \     |\   __  \
+    \ \  \\\  \ \  \|\  \ \  \    \ \  \|\  \
+     \ \   __  \ \  \\\  \ \  \    \ \   __  \
+      \ \  \ \  \ \  \\\  \ \  \____\ \  \ \  \
+       \ \__\ \__\ \_______\ \_______\ \__\ \__\
+        \|__|\|__|\|_______|\|_______|\|__|\|__|
 
-    <name> -- <role> -- <twitter>
 
-# THANKS
+    yup, that's my humans.txt...
 
-    <name>
+    this site is made with Jekyll and some Node.js modules
+    thanks for coming by!
 
-# TECHNOLOGY COLOPHON
+    - jaume
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
