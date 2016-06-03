@@ -1,0 +1,41 @@
+#posts.show{
+
+    .post{
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+        .post-header{
+            display: none;
+        }
+
+        .post-content{
+            min-height: 200px;
+        }
+
+        .post-footer{
+            border-top: 1px solid @gray-lighter;
+            padding-top: 9px;
+            margin-top: 40px;
+
+            .title{
+                .h5();
+            }
+        }
+
+        .post-meta{
+            a{
+                font-weight: normal;
+                color: @gray-dark;
+            }
+            @media (min-width: @screen-sm-min) {
+                text-align: right;
+            }
+            @media (min-width: @screen-md-min) {
+            }
+            @media (min-width: @screen-lg-min) {
+            }
+        }
+
+
+    }
+}
