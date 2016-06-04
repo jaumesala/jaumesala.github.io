@@ -15,7 +15,7 @@ var filterList = {
         ]
     },
 
-    init(listId, options){
+    init: function(listId, options){
 
         filterList.options = $.extend( true, filterList.defaults, options );
 
