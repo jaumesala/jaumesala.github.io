@@ -10,7 +10,7 @@
 
     yup, that's my humans.txt...
 
-    this site is made with Jekyll and some Node.js modules
+    this site is made with Jekyll, Node.js modules and Bower packages
     thanks for coming by!
 
     - jaume
