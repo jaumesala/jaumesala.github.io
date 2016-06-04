@@ -46,6 +46,9 @@ var bowerComponents = [
 
     bowerRelative + 'bootstrap/dist/js/bootstrap.js',
     bowerRelative + 'imagesloaded/imagesloaded.pkgd.js',
+    bowerRelative + 'list.js/dist/list.js',
+    bowerRelative + 'list.fuzzysearch.js/dist/list.fuzzysearch.js'
+
 ];
 
 
