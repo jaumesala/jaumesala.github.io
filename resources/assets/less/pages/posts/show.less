@@ -1,8 +1,16 @@
 #posts.show{
 
     .post{
-        margin-top: 40px;
+        // margin-top: 00px;
         margin-bottom: 40px;
+
+        @media (min-width: @screen-sm-min) {
+            margin-top: 40px;
+        }
+        @media (min-width: @screen-md-min) {
+        }
+        @media (min-width: @screen-lg-min) {
+        }
 
         .post-header{
             display: none;
@@ -22,7 +30,14 @@
             }
         }
 
+        .post-tags{
+            margin-bottom: 20px;
+        }
+        .post-categories{
+            margin-bottom: 20px;
+        }
         .post-meta{
+            margin-bottom: 20px;
             a{
                 font-weight: normal;
                 color: @gray-dark;
@@ -36,6 +51,14 @@
             }
         }
 
+        .centered{
+            margin: 20px 0;
+
+            > * {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
 
     }
 }
