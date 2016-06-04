@@ -1,4 +1,4 @@
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
@@ -6,10 +6,20 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta name="author" content="Jaume Sala">
+    <link type="text/plain" rel="author" href="{{ "/humans.txt" | prepend: site.baseurl }}" />
+
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+    <meta property="og:title"  content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:image"  content="{{ "/tile.png" | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:site_name" content="{{ site.title | escape }}"/>
+    <meta property="og:type"   content="website" />
+    <meta property="og:url"    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
