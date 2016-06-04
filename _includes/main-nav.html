@@ -8,4 +8,9 @@
     {% if site.twitter_username %}
     <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
     {% endif %}
+    {% if site.posts.size > 0 %}
+    <a href="{{ "/posts" | prepend: site.baseurl }}">Posts</a>
+
+    </div>
+    {% endif %}
 </nav>

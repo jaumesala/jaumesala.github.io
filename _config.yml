@@ -8,26 +8,32 @@
 # Site settings
 title: Jaume Sala - Software Engineer and much more.
 email: jaumesala@gmail.com
+mailto_rot13: znvygb:wnhzrfnyn@tznvy.pbz
 description: > # this means to ignore newlines until "baseurl:"
   This is my personal website. Software Engineer by voation.
   Front End Web Developer, UX Engineer, Smart Cities Expert.
   Music, Movies, Travel, Knowledge in general.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jaumesala.net" # the base hostname & protocol for your site
+timezone: Europe/Madrid
 
+# social nicknames
 github_username:  jaumesala
 linkedin_username: jaumesala
 twitter_username: jaumesala84
 
+# excluded files and folders
 exclude: ['node_modules', 'vendor', 'resources', 'bower.json', 'gulpfile.js', 'package.json', 'npm-debug.log']
 include: []
 
 # Build settings
 markdown: kramdown
 
-timezone: Europe/Madrid
+# google analtics
 google_analytics: UA-XXXXX-X
 
-
+# defaults
 controller: page
 method: index
+
+permalink: /posts/:year-:month-:day-:slug

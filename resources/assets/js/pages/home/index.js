@@ -43,7 +43,6 @@ function animateSkills(){
             if($elem.next().length){
                 aniamteNext($elem.next());
             } else {
-                console.log("aaa");
                 aniamteNext($skills.first());
             }
         }, 5000);

@@ -1,0 +1,18 @@
+---
+layout: page
+controller: posts
+method: index
+title: Posts
+---
+
+
+<ul class="posts-list list-unstyled">
+    {% for post in site.posts %}
+        <li class="post-item">
+            <a href="{{ post.url }}">
+                <span class="title">{{ post.title }}</span>
+                <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
