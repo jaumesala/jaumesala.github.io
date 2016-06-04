@@ -30,7 +30,7 @@ include: []
 markdown: kramdown
 
 # google analtics
-google_analytics: UA-XXXXX-X
+google_analytics: UA-1304278-1
 
 # defaults
 controller: page
