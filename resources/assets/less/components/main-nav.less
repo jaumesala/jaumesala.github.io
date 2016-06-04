@@ -22,8 +22,8 @@
         @media (min-width: @screen-lg-min) {
         }
 
-        &::before,
-        &::after{
+        &:before,
+        &:after{
             content: "";
             display: block;
             width: 2px;
@@ -36,25 +36,25 @@
             .trans(200ms, ease);
         }
 
-        &::before{
+        &:before{
             left: -2px;
         }
 
-        &::after{
+        &:after{
             right: -2px;
         }
 
         &:hover{
             color: @gray-light;
 
-            &::before,
-            &::after{
+            &:before,
+            &:after{
                 opacity: 1;
             }
-            &::before{
+            &:before{
                 left: 4px;
             }
-            &::after{
+            &:after{
                 right: 4px;
             }
         }

@@ -27,7 +27,7 @@
             outline: none;
         }
 
-        &::before{
+        &:before{
             content: "";
             width: 16px;
             height: 16px;
@@ -37,11 +37,19 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            margin-top: 4px;
+            margin-top: -2px;
             margin-left: -8px;
             transform: rotate(45deg);
             animation: wave 2s infinite;
             .trans();
+
+            @media (min-width: @screen-sm-min) {
+                margin-top: 6px;
+            }
+            @media (min-width: @screen-md-min) {
+            }
+            @media (min-width: @screen-lg-min) {
+            }
         }
 
         &:hover{
