@@ -45,13 +45,12 @@ back_url: /posts
             <div class="col-sm-4">
                 <div class="post-meta">
                     <h3 class="title">Meta</h3>
-                        <ul class="list-unstyled">
-                            <li><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}</time></li>
-                            {% if page.author %}
-                                <li>by <a class="obfuscate" data-value="{{ site.mailto_rot13 }}" href="#"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></a></li>
-                            {% endif %}
-                        </ul>
-                    </p>
+                    <ul class="list-unstyled">
+                        <li><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %B %Y" }}</time></li>
+                        {% if page.author %}
+                            <li>by <a class="obfuscate" data-value="{{ site.mailto_rot13 }}" href="#"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></a></li>
+                        {% endif %}
+                    </ul>
                 </div>
             </div>
         </div>
