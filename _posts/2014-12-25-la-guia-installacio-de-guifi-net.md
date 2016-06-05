@@ -8,6 +8,9 @@ tags:
 - wifi
 - guifi.net
 - DIY
+- dd-wrt
+- linksys
+- buffalo
 ---
 Pels interessats en connectar-se a la xarxa lliure [guifi.net][guifi-net], podeu utilitzar aquesta [guia d'instalació][guia-guifi] que vaig escriure fa temps. Necessitareu un router compatible amb el firmware [dd-wrt][dd-wrt] i una antena direccional a 2,4 Ghz.
 
