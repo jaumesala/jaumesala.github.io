@@ -18,6 +18,8 @@ Aquesta guia la vaig escriure ja fa molt de temps, només la mantinc donat que h
 
 Per a qualsevol dubte tècnic que tingueu, contacteu amb la comunitat de guifi.net, segur que estaran encantats d'ajudar-vos.
 
+[La guia d'instalació de guifi.net][guia-guifi]
+
 [guifi-net]: https://guifi.net/
-[guia-guifi]: /guiaguifi
+[guia-guifi]: http://guiaguifi.jaumesala.net
 [dd-wrt]: http://www.dd-wrt.com
