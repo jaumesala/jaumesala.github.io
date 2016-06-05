@@ -36,4 +36,9 @@ google_analytics: UA-1304278-1
 controller: page
 method: index
 
+#posts permalink
 permalink: /posts/:year-:month-:day-:slug
+
+#dependencies
+gems:
+  - jekyll-sitemap
