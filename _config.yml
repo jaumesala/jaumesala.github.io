@@ -42,3 +42,5 @@ permalink: /posts/:year-:month-:day-:slug
 #dependencies
 gems:
   - jekyll-sitemap
+
+theme: jekyll-theme-cayman
