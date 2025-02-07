@@ -8,10 +8,15 @@
         \|__|\|__|\|_______|\|_______|\|__|\|__|
 
 
-    yup, that's my humans.txt...
+    👋 Hey, you found my humans.txt!
+    Here’s what you get for your curiosity:
 
-    this site is made with Jekyll, Node.js modules and Bower packages
-    thanks for coming by!
+    - Free sarcasm with every visit 😏
+    - 100% organic, gluten-free ASCII art
+    - A virtual high-five 🙌
 
-    - jaume
+    Keep on being curious!
+    Catch you on the flipside.
+
+    - jaume 🛠️
 
